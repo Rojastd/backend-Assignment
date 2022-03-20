@@ -1,0 +1,13 @@
+GET http://localhost:3000/friends/
+###
+
+GET http://localhost:3000/friends/1/
+###
+
+POST http://localhost:3000/friends/
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"Sir Isac Newton"
+}
